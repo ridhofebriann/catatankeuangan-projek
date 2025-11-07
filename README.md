@@ -22,6 +22,7 @@ Proyek ini adalah implementasi dari 6 poin soal UTS, yang mencakup:
 1. Desain Splash Screen: Alur splash screen yang canggih dengan deteksi lokasi (GPS) untuk menampilkan bendera dan bahasa (mendukung 4 bahasa: 🇮🇩, 🇺🇸, 🇨🇳, 🇯🇵).
 
 2. Storyboard: Alur cerita pengguna (user flow) lengkap dalam 7 frame.
+(Storyboard_.pdf)
 
 3. Mockup (Wireframe): Sketsa kasar (lo-fi) tata letak aplikasi.
 
@@ -41,15 +42,18 @@ Semua hasil akhir (aset) dari fase desain proyek ini ada di dalam repository ini
 
 File PDF yang berisi 9 slide (termasuk Style Guide) dan anotasi lengkap dari ke-7 frame Desain UI.
 
-**(Spesifikasi_Anotasi.pdf)**
+**(Spesifikasi_Anotasi Desain_UI.pdf)**
 
 ---
 
 # 🎥 Video Prototype UX (.mp4):
 
 Video rekaman layar yang mendemonstrasikan alur prototype Figma, dari membuka aplikasi hingga 2 transaksi tersimpan.
+link URL YOUTUBE:
+https://youtu.be/GBfHzqG3zK0?si=WPdrtcCJZjAXMEwO
 
-**(PROTOTYPE.mp4)**
+
+**(PROTOTYPE_MOKU.mp4)**
 
 ---
 
