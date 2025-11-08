@@ -50,10 +50,10 @@ File PDF yang berisi 9 slide (termasuk Style Guide) dan anotasi lengkap dari ke-
 
 Video rekaman layar yang mendemonstrasikan alur prototype Figma, dari membuka aplikasi hingga 2 transaksi tersimpan.
 link URL YOUTUBE:
-https://youtu.be/GBfHzqG3zK0?si=WPdrtcCJZjAXMEwO
+[https://youtu.be/GBfHzqG3zK0?si=WPdrtcCJZjAXMEwO](https://youtu.be/lqH_wZOQdR0)
 
 
-**(PROTOTYPE_MOKU.mp4)**
+**(SplashScreen & Prototype.mp4)**
 
 ---
 
