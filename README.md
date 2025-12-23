@@ -104,8 +104,8 @@ Tekan tombol Run.
 
 Ridho Febrian
 
-Mahasiswa Teknik Informatika/Sistem Informasi
+Mahasiswa Teknik Informatika
 
-Universitas [Nama Kampus Kamu]
+Universitas Pelita Bangsa
 
 Dibuat dengan ❤️ menggunakan Android Studio.
