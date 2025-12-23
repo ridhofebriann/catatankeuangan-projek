@@ -45,13 +45,16 @@ Bahasa Antarmuka: Seluruh label, tombol, dan pesan dalam aplikasi menggunakan Ba
 
 #### Notifikasi Firebase:
 
-<img src="lab11_php_oop/img/data_barang.png" width="200">
+<img src="notif.jpeg" width="200">
 
 #### splash screen lokasi:
 
 <img src="splash screen.png" width="200">
 
-link youtube:
+### lengkap nya ada di bawah ini:
+
+### link youtube:
+
 ***https://youtube.com/shorts/_FIVgLclFKY?feature=share*** 
 
 
