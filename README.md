@@ -38,18 +38,18 @@ Bahasa Antarmuka: Seluruh label, tombol, dan pesan dalam aplikasi menggunakan Ba
 
 
 #### Dashboard Saldo:
-<img src="dasboard.jpeg" width="700">
+<img src="dasboard.jpeg" width="200">
 
 #### Input Transaksi:
-<img src="input.jpeg" width="700">
+<img src="input.jpeg" width="200">
 
 #### Notifikasi Firebase:
 
-<img src="lab11_php_oop/img/data_barang.png" width="700">
+<img src="lab11_php_oop/img/data_barang.png" width="200">
 
 #### splash screen lokasi:
 
-<img src="splash screen.png" width="700">
+<img src="splash screen.png" width="200">
 
 link youtube:
 ***https://youtube.com/shorts/_FIVgLclFKY?feature=share*** 
