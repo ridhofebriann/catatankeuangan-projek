@@ -49,7 +49,7 @@ Bahasa Antarmuka: Seluruh label, tombol, dan pesan dalam aplikasi menggunakan Ba
 
 #### splash screen lokasi:
 
-<img src="(https://github.com/ridhofebriann/catatankeuangan-projek/blob/main/splash%20screen.png)" width="700">
+<img src="splash screen.png" width="700">
 
 link youtube:
 ***https://youtube.com/shorts/_FIVgLclFKY?feature=share*** 
