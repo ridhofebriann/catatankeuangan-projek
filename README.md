@@ -35,15 +35,24 @@ Format Rupiah & Lokasi: Sistem secara otomatis mendeteksi dan memformat mata uan
 Bahasa Antarmuka: Seluruh label, tombol, dan pesan dalam aplikasi menggunakan Bahasa Indonesia yang baku dan mudah dipahami pengguna lokal.
 
 ### 📷 Screenshots
+<img src="lab11_php_oop/img/data_barang.png" width="700">
 
+#### Dashboard Saldo:
+<img src="lab11_php_oop/img/data_barang.png" width="700">
 
-Dashboard Saldo
+#### Input Transaksi:
+<img src="lab11_php_oop/img/data_barang.png" width="700">
 
-Input Transaksi
+#### Notifikasi Firebase:
 
-Notifikasi Firebase
+<img src="lab11_php_oop/img/data_barang.png" width="700">
 
+#### splash screen lokasi:
 
+<img src="lab11_php_oop/img/data_barang.png" width="700">
+
+link youtube:
+***https://youtube.com/shorts/_FIVgLclFKY?feature=share*** 
 
 
 
