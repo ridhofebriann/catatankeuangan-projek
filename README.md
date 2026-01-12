@@ -57,7 +57,9 @@ Bahasa Antarmuka: Seluruh label, tombol, dan pesan dalam aplikasi menggunakan Ba
 
 ***https://youtube.com/shorts/_FIVgLclFKY?feature=share*** 
 
+### link click-up saya:
 
+***https://sharing.clickup.com/90181778538/g/h/2kzm1f3a-78/1ea468f1105c104***
 
 
 
