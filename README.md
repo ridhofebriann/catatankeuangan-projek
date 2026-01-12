@@ -2,7 +2,18 @@
 
 Catatan Keuangan adalah aplikasi Android sederhana namun elegan untuk manajemen arus kas pribadi. Aplikasi ini dirancang untuk membantu pengguna mencatat pemasukan dan pengeluaran harian dengan antarmuka yang bersih (Clean UI) dan pengalaman pengguna (User Experience) yang mulus.
 
-Projek ini dibuat untuk memenuhi Tugas Mata Kuliah Pemrograman Mobile.
+## 👨‍💻 Informasi Pengembang
+
+| Atribut | Keterangan |
+| :--- | :--- |
+| **Nama** | **M.Ridho Febrian** |
+| **NIM** | 312410500 |
+| **Kelas** | TI.24.A.5 |
+| **Universitas** | Universitas Pelita Bangsa |
+| **Mata Kuliah** | Pemrograman Mobile 1 |
+
+Projek ini dibuat untuk memenuhi Tugas Uas Mata Kuliah Pemrograman Mobile.
+---
 
 ### 📱 Fitur Unggulan
 
