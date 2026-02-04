@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingStart="24dp"
+    android:paddingEnd="24dp"
+    android:paddingBottom="24dp"
+    android:paddingTop="84dp"
+    android:background="@color/white">
+
+    <!--
+       CATATAN:
+       paddingTop="84dp" di atas ditambahkan agar elemen pertama (EditText Jumlah)
+       turun ke bawah dan tidak tertutup kamera/status bar.
+    -->
+
+    <!-- 1. INPUT JUMLAH (Frame 5 PDF) -->
+    <EditText
+        android:id="@+id/et_jumlah"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/bg_input_outline"
+        android:fontFamily="@font/gulzar"
+        android:hint="@string/hint_jumlah"
+        android:inputType="numberDecimal"
+        android:paddingStart="24dp"
+        android:paddingEnd="24dp"
+        android:textColor="#212121"
+        android:textColorHint="#757575"
+        android:textSize="16sp" />
+
+    <!-- 2. PILIHAN TIPE (Frame 5 PDF) -->
+    <RadioGroup
+        android:id="@+id/rg_tipe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rb_masuk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/color_radio_button"
+            android:fontFamily="@font/gulzar"
+            android:text="@string/radio_masuk"
+            android:textColor="#757575"
+            android:textSize="16sp"
+            android:layout_marginEnd="32dp"
+            android:checked="true"/>
+
+        <RadioButton
+            android:id="@+id/rb_keluar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/color_radio_button"
+            android:fontFamily="@font/gulzar"
+            android:text="@string/radio_keluar"
+            android:textColor="#757575"
+            android:textSize="16sp" />
+
+    </RadioGroup>
+
+    <!-- 3. INPUT KETERANGAN (Frame 5 PDF) -->
+    <EditText
+        android:id="@+id/et_keterangan"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/bg_input_outline"
+        android:fontFamily="@font/gulzar"
+        android:hint="@string/hint_keterangan"
+        android:inputType="textCapSentences"
+        android:paddingStart="24dp"
+        android:paddingEnd="24dp"
+        android:textColor="#212121"
+        android:textColorHint="#757575"
+        android:textSize="16sp" />
+
+    <!-- Spacer -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <!-- 4. TOMBOL SIMPAN (Frame 5 PDF) -->
+    <Button
+        android:id="@+id/btn_simpan"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/bg_button_primary"
+        app:backgroundTint="@null"
+        android:fontFamily="@font/gulzar"
+        android:text="@string/btn_simpan"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+</LinearLayout>

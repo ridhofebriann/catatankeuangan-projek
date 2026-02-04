@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Warna Sesuai PDF Anotasi -->
+    <color name="biru_primer">#0787FF</color>
+    <color name="merah_keluar">#F44336</color>
+    <color name="hijau_masuk">#4CAF50</color>
+    <color name="teks_hitam">#212121</color>
+    <color name="teks_abu">#757575</color>
+    <color name="stroke_abu">#BDBDBD</color> <!-- Untuk garis tepi kartu -->
+</resources>

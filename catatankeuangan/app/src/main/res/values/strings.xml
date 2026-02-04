@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">CatatanKeuangan</string>
+
+    <!-- Halaman Splash -->
+    <string name="selamat_datang">SELAMAT DATANG</string>
+    <string name="bahasa_default">Bahasa : Indonesia</string>
+
+    <!-- Halaman Utama -->
+    <string name="saldo_akhir_default">Saldo Akhir: Rp 0</string>
+    <string name="belum_ada_catatan">Belum ada Catatan</string>
+    <string name="tambah_catatan">+ Tambah Catatan</string>
+    <string name="contoh_keterangan">Uang Jajan</string>
+    <string name="contoh_nominal">-Rp20.000</string>
+
+    <!-- Halaman Tambah Data -->
+    <string name="hint_jumlah">Jumlah (Rp)</string>
+    <string name="radio_masuk">Masuk</string>
+    <string name="radio_keluar">Keluar</string>
+    <string name="hint_keterangan">Keterangan</string>
+    <string name="btn_simpan">Simpan</string>
+</resources>

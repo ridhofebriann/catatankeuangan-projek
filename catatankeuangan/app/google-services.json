@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "826994507384",
+    "project_id": "catatankeuangan-677be",
+    "storage_bucket": "catatankeuangan-677be.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:826994507384:android:e53c185b37f02be2c9b78d",
+        "android_client_info": {
+          "package_name": "com.example.catatankeuangan"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRfc_QRzL7VozFkbMHFRqaJoUW36x_JB0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

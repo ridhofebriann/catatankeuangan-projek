@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:padding="24dp">
+
+    <!-- 1. LOGO MOKU -->
+    <ImageView
+        android:id="@+id/logo_moku"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/logo_moku" />
+
+    <!-- 2. LOADING BAR -->
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logo_moku"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:indeterminateTint="@color/biru_primer"
+        android:visibility="visible"/>
+
+    <!-- 3. CONTAINER INFO BAHASA (Wajib Ada ID ini) -->
+    <RelativeLayout
+        android:id="@+id/layout_info_bahasa"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+
+        <!-- A. BENDERA -->
+        <ImageView
+            android:id="@+id/img_bendera"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:src="@drawable/flag_id" />
+
+        <!-- B. TEKS SELAMAT DATANG -->
+        <TextView
+            android:id="@+id/tv_selamat_datang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:fontFamily="@font/gulzar"
+            android:paddingTop="180dp"
+            android:text="@string/selamat_datang"
+            android:textColor="@color/teks_hitam"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <!-- C. INFO BAHASA -->
+        <TextView
+            android:id="@+id/tv_info_bahasa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="32dp"
+            android:fontFamily="@font/gulzar"
+            android:text="@string/bahasa_default"
+            android:textColor="@color/teks_abu"
+            android:textSize="16sp" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
