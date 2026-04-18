@@ -56,11 +56,13 @@ Aplikasi terintegrasi dengan **Groq Cloud API (Model Llama 3.3)** untuk menganal
 
 | Dashboard & AI Analysis | Input Transaksi (Overlap UI) | Notifikasi Firebase | Splash Screen |
 |:---:|:---:|:---:|:---:|
-| <img src="dasboard.jpeg" width="200"> | <img src="input.jpeg" width="200"> | <img src="notif.jpeg" width="200"> | <img src="splash screen.png" width="200"> |
+| <img src="Dashboardsaldo.png" width="200"> | <img src="Tambahdata.png" width="200"> | <img src="notif.jpeg" width="200"> | <img src="splash screen.png" width="200"> |
+
+
 
 | Desain UI |
 |:---:|
-| <img src="dasboard.jpeg" width="200"> |
+| <img src="desain_UI.png" width="1000"> |
 
 ---
 
