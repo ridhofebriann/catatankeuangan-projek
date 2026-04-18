@@ -21,7 +21,7 @@ Catatan Keuangan adalah aplikasi Android elegan untuk manajemen arus kas pribadi
 ## 🔗 Link Project & Dokumentasi
 
 * **🎥 Video Demo Aplikasi:** [Tonton di YouTube](https://youtube.com/shorts/_FIVgLclFKY?feature=share)
-* **📝 Task Management (ClickUp):** [Lihat Board Project](https://sharing.clickup.com/90181778538/g/h/2kzm1f3a-78/1ea468f1105c104)
+* **📝 Task Management (ClickUp):** (https://sharing.clickup.com/90181778538/g/h/2kzm1f3a-78/1ea468f1105c104)
 
 ---
 
