@@ -79,26 +79,8 @@ Aplikasi terintegrasi dengan **Groq Cloud API (Model Llama 3.3)** untuk menganal
 
 ---
 
-## 🚀 Cara Menjalankan Project
 
-1. **Clone Repositori:**
-   ```bash
-   git clone [https://github.com/ridhofebriann/catatankeuangan-projek.git](https://github.com/ridhofebriann/catatankeuangan-projek.git)
-   
-2. **Buka di Android Studio:**
-Pilih `File` -> `Open` -> Cari folder hasil clone tadi. Tunggu proses Sinkronisasi Gradle selesai.
-
-3. **Konfigurasi Firebase & API:**
-
-    Pastikan `file google-services.json` sudah ada di dalam folder `app/` untuk mengaktifkan notifikasi FCM (hubungi developer jika tidak tersedia di repo awam).
-
-    Dapatkan API Key dari Groq Console dan masukkan kodenya ke variabel `apiKey` di dalam file `MainActivity.java.`  
-
-4. **Run Aplikasi:**
-   
- Hubungkan smartphone Android fisik atau gunakan Emulator, lalu tekan tombol Run.
-
- Dibuat oleh  M. Ridho Febrian
+ ## Dibuat oleh  M. Ridho Febrian
 
 
 ***
