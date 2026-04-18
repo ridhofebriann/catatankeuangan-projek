@@ -58,7 +58,9 @@ Aplikasi terintegrasi dengan **Groq Cloud API (Model Llama 3.3)** untuk menganal
 |:---:|:---:|:---:|:---:|
 | <img src="dasboard.jpeg" width="200"> | <img src="input.jpeg" width="200"> | <img src="notif.jpeg" width="200"> | <img src="splash screen.png" width="200"> |
 
-
+| Desain UI |
+|:---:|
+| <img src="dasboard.jpeg" width="200"> |
 
 ---
 
