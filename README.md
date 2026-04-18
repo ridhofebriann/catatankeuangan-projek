@@ -12,7 +12,7 @@ Catatan Keuangan adalah aplikasi Android elegan untuk manajemen arus kas pribadi
 | **NIM** | 312410500 |
 | **Kelas** | TI.24.A.5 |
 | **Universitas** | Universitas Pelita Bangsa |
-| **Mata Kuliah** | Pemrograman Mobile 1 |
+| **Mata Kuliah** | Pemrograman Mobile 2 |
 
 *Projek ini dibuat untuk memenuhi Tugas UAS (Ujian Akhir Semester) Mata Kuliah Pemrograman Mobile.*
 
