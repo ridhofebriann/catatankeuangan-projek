@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="biru_primer">#0787FF</color>
+    <color name="black">#FF000000</color>
+    <color name="hijau_masuk">#4CAF50</color>
+    <color name="merah_keluar">#F44336</color>
+    <color name="stroke_abu">#BDBDBD</color>
+    <color name="teks_abu">#757575</color>
+    <color name="teks_hitam">#212121</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">CatatanKeuangan</string>
+    <string name="bahasa_default">Bahasa : Indonesia</string>
+    <string name="belum_ada_catatan">Belum ada Catatan</string>
+    <string name="btn_simpan">Simpan</string>
+    <string name="contoh_keterangan">Uang Jajan</string>
+    <string name="contoh_nominal">-Rp20.000</string>
+    <string name="gcm_defaultSenderId" translatable="false">826994507384</string>
+    <string name="google_api_key" translatable="false">AIzaSyDRfc_QRzL7VozFkbMHFRqaJoUW36x_JB0</string>
+    <string name="google_app_id" translatable="false">1:826994507384:android:e53c185b37f02be2c9b78d</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDRfc_QRzL7VozFkbMHFRqaJoUW36x_JB0</string>
+    <string name="google_storage_bucket" translatable="false">catatankeuangan-677be.firebasestorage.app</string>
+    <string name="hint_jumlah">Jumlah (Rp)</string>
+    <string name="hint_keterangan">Keterangan</string>
+    <string name="project_id" translatable="false">catatankeuangan-677be</string>
+    <string name="radio_keluar">Keluar</string>
+    <string name="radio_masuk">Masuk</string>
+    <string name="saldo_akhir_default">Saldo Akhir: Rp 0</string>
+    <string name="selamat_datang">SELAMAT DATANG</string>
+    <string name="tambah_catatan">+ Tambah Catatan</string>
+    <style name="Theme.CatatanKeuangan" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        
+        <item name="colorPrimary">@color/biru_primer</item>
+        <item name="colorPrimaryVariant">@color/biru_primer</item>
+        <item name="colorOnPrimary">@color/white</item>
+        
+        <item name="colorSecondary">@color/biru_primer</item>
+        <item name="colorSecondaryVariant">@color/biru_primer</item>
+        <item name="colorOnSecondary">@color/black</item>
+        
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        
+    </style>
+</resources>

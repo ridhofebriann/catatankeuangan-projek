@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Layar bergerak dari bawah (100%) ke posisi normal (0%) -->
+    <translate
+        android:duration="400"
+        android:fromYDelta="100%p"
+        android:toYDelta="0"
+        android:interpolator="@android:anim/decelerate_interpolator"/>
+
+    <!-- Sedikit efek transparan biar halus -->
+    <alpha
+        android:duration="400"
+        android:fromAlpha="0.5"
+        android:toAlpha="1.0" />
+</set>

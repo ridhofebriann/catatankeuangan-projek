@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+
+    android:paddingStart="24dp"
+    android:paddingEnd="24dp"
+    android:paddingBottom="24dp"
+    android:paddingTop="60dp"
+
+    tools:context=".MainActivity">
+
+    <!-- PERHATIKAN: paddingTop="60dp" di atas adalah kuncinya agar tidak kena kamera -->
+
+    <!-- Header Saldo (Desain PDF: Biru #0787FF, Radius 30dp) -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_saldo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="#0787FF"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="8dp">
+
+        <TextView
+            android:id="@+id/tv_saldo_akhir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gulzar"
+            android:gravity="center"
+            android:padding="20dp"
+            android:text="@string/saldo_akhir_default"
+            android:textColor="@color/white"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+    </androidx.cardview.widget.CardView>
+
+    <!-- Teks Kosong (Muncul jika belum ada data) -->
+    <TextView
+        android:id="@+id/tv_belum_ada_catatan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:fontFamily="@font/gulzar"
+        android:text="@string/belum_ada_catatan"
+        android:textColor="#212121"
+        android:textSize="18sp"
+        android:visibility="gone"
+        tools:visibility="visible"/>
+
+    <!-- List Data -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view_transaksi"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/card_saldo"
+        android:layout_above="@id/btn_tambah_catatan"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        tools:listitem="@layout/list_item_transaksi"/>
+
+    <!-- Tombol Tambah (Desain PDF: Biru #0787FF, Radius 30dp) -->
+    <Button
+        android:id="@+id/btn_tambah_catatan"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_alignParentBottom="true"
+        android:backgroundTint="#0787FF"
+        android:fontFamily="@font/gulzar"
+        android:text="@string/tambah_catatan"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:cornerRadius="30dp"
+        android:elevation="4dp"/>
+
+</RelativeLayout>
