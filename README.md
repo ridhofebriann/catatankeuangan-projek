@@ -1,124 +1,107 @@
-### 💰 Catatan Keuangan - Android App
+# 📱 Catatan Keuangan - Smart Finance Assistant
 
-Catatan Keuangan adalah aplikasi Android sederhana namun elegan untuk manajemen arus kas pribadi. Aplikasi ini dirancang untuk membantu pengguna mencatat pemasukan dan pengeluaran harian dengan antarmuka yang bersih (Clean UI) dan pengalaman pengguna (User Experience) yang mulus.
+Catatan Keuangan adalah aplikasi Android elegan untuk manajemen arus kas pribadi. Berawal dari pencatat keuangan sederhana, aplikasi ini kini berevolusi menjadi **Asisten Keuangan Pintar** yang dilengkapi dengan Kecerdasan Buatan (AI) untuk memberikan analisis pengeluaran secara *real-time* dengan antarmuka (Clean UI) yang sangat memanjakan mata.
+
+---
 
 ## 👨‍💻 Informasi Pengembang
 
 | Atribut | Keterangan |
 | :--- | :--- |
-| **Nama** | **M.Ridho Febrian** |
+| **Nama** | **M. Ridho Febrian** |
 | **NIM** | 312410500 |
 | **Kelas** | TI.24.A.5 |
 | **Universitas** | Universitas Pelita Bangsa |
 | **Mata Kuliah** | Pemrograman Mobile 1 |
 
-Projek ini dibuat untuk memenuhi Tugas Uas Mata Kuliah Pemrograman Mobile.
+*Projek ini dibuat untuk memenuhi Tugas UAS (Ujian Akhir Semester) Mata Kuliah Pemrograman Mobile.*
+
 ---
 
-### 📱 Fitur Unggulan
+## 🔗 Link Project & Dokumentasi
 
-### 1. 📊 Manajemen Data (CRUD)
+* **🎥 Video Demo Aplikasi:** [Tonton di YouTube](https://youtube.com/shorts/_FIVgLclFKY?feature=share)
+* **📝 Task Management (ClickUp):** [Lihat Board Project](https://sharing.clickup.com/90181778538/g/h/2kzm1f3a-78/1ea468f1105c104)
 
-Pencatatan Transaksi: Input pemasukan dan pengeluaran dengan validasi data.
+---
 
-Penyimpanan Lokal: Menggunakan SQLite Database, data tersimpan permanen di perangkat tanpa perlu koneksi internet terus-menerus.
+## ✨ Fitur Unggulan
 
-Riwayat Transaksi: Menampilkan list riwayat transaksi menggunakan RecyclerView yang efisien.
+### 1. 🤖 Smart AI Analysis (Groq API Integration) - *NEW!*
+Aplikasi terintegrasi dengan **Groq Cloud API (Model Llama 3.3)** untuk menganalisis kesehatan keuangan pengguna secara cerdas.
+* **Analisis 50/30/20:** AI mengkategorikan transaksi pengguna menjadi Kebutuhan, Keinginan, dan Tabungan.
+* **Gen-Z Persona:** Nasihat finansial diberikan dengan gaya bahasa yang santai namun tegas (memberikan peringatan *"Gaya Elite, Ekonomi Sulit"* jika terdeteksi pemborosan).
 
-### 2. 🔔 Notifikasi Pintar (Cloud Integration)
+### 2. 🎨 UI/UX Premium & Animasi Tingkat Lanjut - *UPDATED!*
+* **Modern Design:** Menggunakan aksen *Cyan* (`#65E2F5`), tipografi *Poppins*, dan `MaterialCardView` (Desain Overlap) untuk tampilan yang bersih dan profesional.
+* **Seamless Status Bar:** Sinkronisasi warna status bar Android dengan header aplikasi agar antarmuka menyatu sempurna tanpa sekat.
+* **Shared Element Transitions:** Animasi transisi antar layar (Push/Slide In/Out) berdurasi 600ms dengan efek *easing*, serta animasi putar (spin) pada ikon secara *real-time*, memberikan *feel* sekelas aplikasi *Native Modern*.
+* **Splash Screen:** Layar pembuka berlogo menggunakan `Handler` untuk memberikan transisi halus sebelum masuk ke menu utama.
 
-Terintegrasi dengan Firebase Cloud Messaging (FCM).
+### 3. 📊 Manajemen Data (CRUD) & Offline Support
+* **Penyimpanan Lokal:** Menggunakan **SQLite Database**, memungkinkan pengguna mencatat pemasukan dan pengeluaran secara permanen walau tanpa koneksi internet (Offline First).
+* **Riwayat Transaksi:** Menggunakan `RecyclerView` untuk menampilkan *list* transaksi (dengan panah indikator masuk/keluar) secara efisien dan responsif.
 
-Aplikasi dapat menerima Push Notification (pengingat/info) dari server secara real-time maupun saat aplikasi di background.
+### 4. 🔔 Notifikasi Pintar (Cloud Integration)
+* Terintegrasi dengan **Firebase Cloud Messaging (FCM)**.
+* Mendukung *Push Notification* dari server secara *real-time*, baik saat aplikasi sedang dibuka maupun berjalan di *background*.
 
-### 3. ✨ UI/UX Premium & Animasi
+### 5. 🇮🇩 Lokalisasi (Localization)
+* **Format Rupiah & Deteksi Lokasi:** Sistem memformat mata uang secara otomatis ke standar Indonesia (Rp) menggunakan algoritma `Locale("in", "ID")` dan `NumberFormat`.
+* **Bahasa Antarmuka:** 100% menggunakan Bahasa Indonesia yang mudah dipahami.
 
-Custom Transitions: Implementasi animasi transisi antar activity (Slide In Right / Slide Out Right) menggunakan interpolator fast_out_slow_in untuk pengalaman navigasi yang smooth seperti aplikasi native modern.
+---
 
-Splash Screen: Layar pembuka dengan branding logo aplikasi yang menggunakan Handler untuk memberikan jeda waktu (delay) yang halus sebelum transisi otomatis ke halaman utama, menciptakan kesan pertama (First Impression) yang profesional.
+## 📷 Screenshots
 
-Responsive Layout: Penyesuaian layout (paddingTop) agar elemen UI input tidak tertutup oleh notch atau kamera depan pada smartphone modern.
-
-### 4. 🇮🇩 Lokalisasi (Localization)
-
-Format Rupiah & Lokasi: Sistem secara otomatis mendeteksi dan memformat mata uang ke standar Indonesia (Rp) menggunakan logika Locale("in", "ID") dan NumberFormat. Hal ini memastikan penulisan angka (titik/koma) sesuai ejaan yang benar.
-
-Bahasa Antarmuka: Seluruh label, tombol, dan pesan dalam aplikasi menggunakan Bahasa Indonesia yang baku dan mudah dipahami pengguna lokal.
-
-### 📷 Screenshots
-
-
-#### Dashboard Saldo:
-<img src="dasboard.jpeg" width="200">
-
-#### Input Transaksi:
-<img src="input.jpeg" width="200">
-
-#### Notifikasi Firebase:
-
-<img src="notif.jpeg" width="200">
-
-#### splash screen lokasi:
-
-<img src="splash screen.png" width="200">
-
-### lengkap nya ada di bawah ini:
-
-### link youtube:
-
-***https://youtube.com/shorts/_FIVgLclFKY?feature=share*** 
-
-### link click-up saya:
-
-***https://sharing.clickup.com/90181778538/g/h/2kzm1f3a-78/1ea468f1105c104***
+| Dashboard & AI Analysis | Input Transaksi (Overlap UI) | Notifikasi Firebase | Splash Screen |
+|:---:|:---:|:---:|:---:|
+| <img src="dasboard.jpeg" width="200"> | <img src="input.jpeg" width="200"> | <img src="notif.jpeg" width="200"> | <img src="splash screen.png" width="200"> |
 
 
 
-### 🛠️ Teknologi yang Digunakan
+---
 
-Bahasa Pemrograman: Java
+## 🛠️ Teknologi yang Digunakan
 
-IDE: Android Studio (Ladybug/Koala)
+* **Bahasa Pemrograman:** Java
+* **IDE:** Android Studio (Ladybug/Koala)
+* **Database:** SQLite Open Helper
+* **Cloud Service:** Google Firebase (FCM)
+* **AI Engine:** Groq API (Llama-3.3-70b-versatile)
+* **Networking:** OkHttp3 (HTTP Request handler)
+* **UI Components:** ConstraintLayout, RecyclerView, CardView, Shared Elements.
+* **Architecture Pattern:** MVC (Model-View-Controller)
 
-Database: SQLite Open Helper
+---
 
-Cloud Service: Google Firebase (FCM)
+## 🚀 Cara Menjalankan Project
 
-Komponen UI: RecyclerView, CardView, RadioGroup
+1. **Clone Repositori:**
+   ```bash
+   git clone [https://github.com/ridhofebriann/catatankeuangan-projek.git](https://github.com/ridhofebriann/catatankeuangan-projek.git)
+   
+2. **Buka di Android Studio:**
+Pilih `File` -> `Open` -> Cari folder hasil clone tadi. Tunggu proses Sinkronisasi Gradle selesai.
 
-Desain Pattern: MVC (Model-View-Controller)
+3. **Konfigurasi Firebase & API:**
 
-🚀 Cara Menjalankan Project
+    Pastikan `file google-services.json` sudah ada di dalam folder `app/` untuk mengaktifkan notifikasi FCM (hubungi developer jika tidak tersedia di repo awam).
 
-Clone Repositori
+    Dapatkan API Key dari Groq Console dan masukkan kodenya ke variabel `apiKey` di dalam file `MainActivity.java.`  
 
-git clone [https://github.com/ridhofebriann/catatankeuangan-projek.git](https://github.com/ridhofebriann/catatankeuangan-projek.git)
+4. **Run Aplikasi:**
+   
+ Hubungkan smartphone Android fisik atau gunakan Emulator, lalu tekan tombol Run.
+
+ Dibuat oleh  M. Ridho Febrian
 
 
-Buka di Android Studio
+***
 
-Buka Android Studio -> File -> Open -> Cari folder hasil clone tadi.
-
-Konfigurasi Firebase
-
-Pastikan file google-services.json sudah ada di dalam folder app/.
-
-(Catatan: Jika file ini tidak ada di repo karena alasan keamanan, silakan hubungi pengembang untuk mendapatkannya).
-
-Run Application
-
-Tunggu proses Gradle Build selesai.
-
-Hubungkan HP Android atau gunakan Emulator.
-
-Tekan tombol Run.
-
-👤 Author
-
-Ridho Febrian
-
-Mahasiswa Teknik Informatika
-
-Universitas Pelita Bangsa
-
-Dibuat dengan ❤️ menggunakan Android Studio.
+**Perubahan yang Aku Lakukan:**
+1. Menggabungkan bagian UI dan Animasi kamu yang lama (Splash Screen) dengan *update* UI kita yang baru (Seamless Status Bar & Shared Element).
+2. Menambahkan `OkHttp3` dan `Groq API` ke daftar teknologi.
+3. Menata ulang Screenshots dalam bentuk tabel agar sejajar dan rapi saat dibuka di GitHub.
+4. Menaruh link ClickUp dan YouTube di bagian paling atas (setelah info mahasiswa) biar langsung kelihatan sama dosen penguji.
+***
