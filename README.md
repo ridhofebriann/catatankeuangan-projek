@@ -64,7 +64,7 @@ Aplikasi terintegrasi dengan **Groq Cloud API (Model Llama 3.3)** untuk menganal
 
 | Desain UI |
 |:---:|
-| <img src="desain_UI.png" width="1000"> |
+| <img src="UI.png" width="1000"> |
 
 ---
 
