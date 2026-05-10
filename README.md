@@ -1,6 +1,6 @@
-# 📱 Catatan Keuangan - Smart Finance Assistant
+# 📱 MOKU - Catatan Keuangan - Smart Finance Assistant
 
-Catatan Keuangan adalah aplikasi Android elegan untuk manajemen arus kas pribadi. Berawal dari pencatat keuangan sederhana, aplikasi ini kini berevolusi menjadi **Asisten Keuangan Pintar** yang dilengkapi dengan Kecerdasan Buatan (AI) untuk memberikan analisis pengeluaran secara *real-time* dengan antarmuka (Clean UI) yang sangat memanjakan mata.
+MOKU adalah aplikasi Catatan Keuangan Android elegan untuk manajemen arus kas pribadi. Berawal dari pencatat keuangan sederhana, aplikasi ini kini berevolusi menjadi **Asisten Keuangan Pintar** yang dilengkapi dengan Kecerdasan Buatan (AI) untuk memberikan analisis pengeluaran secara *real-time* dengan antarmuka (Clean UI) yang sangat memanjakan mata.
 
 ---
 
